@@ -87,6 +87,7 @@ a:active {
 
 .card .title {
     position: absolute;
+    left: 0;
     bottom: 0;
     width: 314px;
     padding: 10px 15px;
