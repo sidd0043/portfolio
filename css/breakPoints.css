@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+    .block img {
+        width: 50%;
+        margin: 0 25%;
+    }
+    .block p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    article,
+    aside {
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+    #pOneTag h2,
+    #pTwoTag h2,
+    #pThreeTag h2,
+    #pFourTag h2 {
+        font-size: 4rem;
+    }
+}

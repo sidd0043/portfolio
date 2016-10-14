@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sidd Studio</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Portfolio Website of graphic designer Mukkadas Siddiqui" />
+    <meta name="keywords" content="Graphic Design" />
+    <meta name="author" content="Mukkadas Siddiqui" />
+
+    <!--Favicon 
+    <link rel="icon" sizes="16x16 32x32" href="/favicon.ico?v=2">-->
+
+    <!-- Mobile Friendly -->
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/breakPoints.css">
+    <link rel="stylesheet" href="css/remodal.css">
+    <link rel="stylesheet" href="css/remodal-default-theme.css">
+
+    <! JS --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/remodal.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="viewWrap" class="remodal-bg">
+        <header class="boxShadow">
+            <img id="logo" src="" alt="">
+
+            <a id="navBtn" href="#">Navingation
+                <div class="box pageOne"></div>
+                <div class="box pageTwo"></div>
+                <div class="box pageThree"></div>
+                <div class="box pageFour"></div>
+            </a>
+        </header>
+
+        <article>
+            <div id="pageOne" class="whiteBkr">
+                <div class="block">
+                    <img src="imgs/aboutMe/mukaddasSiddiqui.jpg" alt="Portrait of Mukkadas Siddiqui.">
+                </div>
+
+                <div class="block">
+                    <p class="ssB">Mukkadas Siddiqui</p>
+
+                    <p class="ssN">Born in Kabul, Afghanistan in the year 1992. Travelling the world, landed in India then Canada. Learned the lingo&#58; <span class="ssB">Dari&#44; </span><span class="ssB">Hindi&#44; </span>and <span class="ssB">English&#46;</span></p>
+
+                    <p class="ssN">Graphic Designer in the making, I specialize in UI&#47;UX and conceptual thinking.</p>
+
+                    <p class="ssB">Lets Connect</p>
+                </div>
+            </div>
+
+            <div id="pageTwo" class="whiteBkr">
+                <div class="card">
+                    <div class="img">
+                        <img src="imgs/porfolio/posterDesignCard.jpg" alt="Poster design - Lobato style">
+
+                        <a href="#firstModal" class="title ssN bigType white">Poster Design</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                        <img src="imgs/porfolio/moviePosterCard.jpg" alt="Movie poster design - Banksy Does NewYork">
+
+                        <a href="#secondModal" class="title ssN bigType white">Movie Poster Design</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="img">
+                        <img src="imgs/porfolio/rebrandingCard.jpg" alt="Website UI - user interface design">
+
+                        <a href="#thirdModal" class="title ssN bigType white">Company Rebrand</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img">
+                        <img src="imgs/porfolio/tShirtCard.jpg" alt="T-Shirt Design - Family Guy Stewie">
+
+                        <a href="#fourthModal" class="title ssN bigType white">T-shirt Design</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="pageThree" class="whiteBkr">
+
+            </div>
+
+            <div id="pageFour" class="whiteBkr">
+                <ul>
+                    <li>
+                        <a href="https://www.behance.net/Sidd00432704" target="_blank">
+                            <img src="imgs/icons/behance.svg" alt="Behance logo icon.">
+                            <p>Behance Page</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/mukkadas/" target="_blank">
+                            <img src="imgs/icons/pinterestlogo.svg" alt="Pinterest logo icon.">
+                            <p>Follow me on Pinterest</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ca.linkedin.com/in/mukkadas-siddiqui-59ab20b1" target="_blank">
+                            <img src="imgs/icons/regularlinkedinlogo.svg" alt="Linkedin logo icon.">
+                            <p>Check out my LinkedIn</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/mukkadassiddiqu" target="_blank">
+                            <img src="imgs/icons/twitterbirdlogo.svg" alt="Twitter Logo icon.">
+                        </a>
+                        <p>@Mukkadassiddiqu</p>
+                    </li>
+                    <li>
+                        <a href="mailto:s.mukkadas@gmail.com">
+                            <img src="imgs/icons/connectlogo.svg" alt="Connect icon.">
+                        </a>
+                        <p>Shoot me an e-mail</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <aside>
+            <!-- Don't delete p#Tag div this is used to create a clickable btn once nav state on-->
+            <div id="pOneTag">
+                <h2 class="ssN caps">About Me</h2>
+            </div>
+            <div id="pTwoTag">
+                <h2 class="ssN caps">Portfolio</h2>
+            </div>
+            <div id="pThreeTag">
+                <h2 class="ssN caps">Random</h2>
+            </div>
+            <div id="pFourTag">
+                <h2 class="ssN caps">Contact Me</h2>
+            </div>
+        </aside>
+
+        <footer>
+        </footer>
+    </div>
+
+    <div class="remodal" data-remodal-id="firstModal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+
+        <img src="imgs/porfolio/posterDesign.svg">
+
+        <p class="title ssB bigType">Laboto Poster Design</p>
+
+        <p class="description ssN">I was inspired to do this poster based on one of my favourite movies, The Hangover. The art style is that of the infamous Laboto, which we learned about in class.</p>
+    </div>
+
+    <div class="remodal" data-remodal-id="secondModal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+
+        <img src="imgs/porfolio/moviePoster.jpg" alt="Movie poster design - Banksy Does NewYork">
+
+        <p class="title ssB bigType">Movie Poster Design</p>
+
+        <p class="description ssN">Banksy Does NewYork is one of my favourite art documentary. The theme is meant to replicate Banksy's grunge street style of art. I chose the frame specifically becuase of when he snuck into the Tel Aviv Museum of Art, and snuck his art in.</p>
+    </div>
+
+    <div class="remodal" data-remodal-id="thirdModal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+
+        <img src="imgs/porfolio/businessCardFront.svg" alt="Business Card - Chips and Dairy">
+        <img src="imgs/porfolio/businessCardBack.svg" alt="Business Card - Chips and Dairy">
+
+        <p class="title ssB bigType">Chips &amp; Dairy</p>
+        <p class="title ssB bigType">Rebranding</p>
+
+        <p class="description ssN">This was a re-branding assignment of a local business in Ottawa, Ontario. I chose Chips and Dairy. A Canadian and Chinese resturant, the challenge I was faced with was how to show the identity of the resturant. Therefore I went with a very clean western type face, while the ampersand sign mimics a soup bowl with chopsticks. Thus tying in the asain culture.</p>
+    </div>
+
+    <div class="remodal" data-remodal-id="fourthModal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+
+        <img src="imgs/porfolio/tShirt.svg" alt="T-Shirt Design - Family Guy Stewie">
+
+        <p class="title ssB bigType">T-shirt Design</p>
+
+        <p class="description ssN">I call this piece the pocket pussy. The little evil monster known as Stewie is connected to your pocket through his umbilical cord. The red M represents his mission to take over the world, your heart &amp; soul.</p>
+    </div>
+</body>
+
+</html>
